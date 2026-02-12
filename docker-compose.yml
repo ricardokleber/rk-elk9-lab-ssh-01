@@ -1,0 +1,52 @@
+services:
+  elasticsearch:
+    image: ricardokleber/rk-elasticsearch:latest
+    container_name: elasticsearch
+    restart: always
+    volumes:
+    - elastic_data:/usr/share/elasticsearch/data/
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      discovery.type: single-node
+    networks:
+      rede-lab:
+        ipv4_address: 10.10.10.101
+
+  kibana:
+    image: ricardokleber/rk-kibana:latest
+    container_name: kibana
+    restart: always
+    ports:
+    - '5601:5601'
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+    networks:
+      rede-lab:
+        ipv4_address: 10.10.10.102
+
+  server01:
+    image: ricardokleber/rk-ssh:latest
+    container_name: server01
+    hostname: server01
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+    networks:
+      rede-lab:
+        ipv4_address: 10.10.10.201
+    entrypoint: >
+      sh -c "rsyslogd && /usr/sbin/sshd -D"
+    restart: always
+
+volumes:
+  elastic_data: {}
+
+networks:
+  rede-lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.10.0/24
