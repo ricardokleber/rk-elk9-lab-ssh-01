@@ -47,7 +47,7 @@ docker exec -it elasticsearch /usr/share/elasticsearch/bin/elasticsearch-reset-p
 
 ### 6. Usando um navegador acesse o Elasticsearch e digite a URL:
 ```
-http://localhost:9200
+https://10.10.10.101:9200
 ```
 
 ### Forneça como credenciais o login 'elastic' e a senha gerada no tópico anterior:
@@ -60,7 +60,7 @@ http://localhost:9200
 
 ### 7. Agora você poderá então acessar o Kibana, usando um navegador e digitando a URL:
 ```
-http://localhost:5601
+http://10.10.10.102:5601
 ```
 ### O sistema solicitará um 'Token' para autorizar o acesso...
 
