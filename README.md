@@ -100,7 +100,8 @@ docker exec -it kibana bin/kibana-verification-code
 
 ### 12. Para usar a comunicação direta de hosts com o Elasticsearch usando Elastic Agents, é necessário ativar o componente 'Fleet' no Kibana:
 
-```docker exec -it kibana /usr/share/kibana/bin/kibana-encryption-keys generate
+```
+docker exec -it kibana /usr/share/kibana/bin/kibana-encryption-keys generate
 ```
 ### O Resultado será algo como:
 
@@ -122,8 +123,13 @@ docker exec -it kibana bash
 ```
 cat >> /usr/share/kibana/config/kibana.yml
 ```
+### saia do 'cat' teclando CTRL+D.
 
+### 14. Reinicie o Docker Kibana para ativar as configurações do 'Fleet':
 
+```
+docker compose restart kibana
+```
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
