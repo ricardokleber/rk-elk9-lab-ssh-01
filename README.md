@@ -98,6 +98,33 @@ docker exec -it kibana bin/kibana-verification-code
 ### Seu sistema ELK está instalado, configurado e pronto para a próxima etapa....
 <img width="610" height="433" src="https://github.com/user-attachments/assets/beb0ca5e-f1c9-4883-8b1c-38114a500765" />
 
+### 12. Para usar a comunicação direta de hosts com o Elasticsearch usando Elastic Agents, é necessário ativar o componente 'Fleet' no Kibana:
+
+```docker exec -it kibana /usr/share/kibana/bin/kibana-encryption-keys generate
+```
+### O Resultado será algo como:
+
+`xpack.encryptedSavedObjects.encryptionKey: 80def75427d73b5b94f4bb4aa84c26d9`
+
+`xpack.reporting.encryptionKey: 51c22dd95f7acb6da3aca4fa6d8661f3`
+
+`xpack.security.encryptionKey: 0b27d3dbd3b266024d14536484e00ae7`
+
+### Copie essas 3 linhas para a área de transferência.
+
+### 13. Acesse agora o Docker do Kibana para configurar o componente 'Fleet':
+
+```
+docker exec -it kibana bash
+```
+### Concatene o conteúdo da área de transferência no arquivo de configuração do Kibana:
+
+```
+cat >> /usr/share/kibana/config/kibana.yml
+```
+
+
+
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
 <a href="https://www.youtube.com/@rkifrn" target="_blank"><img width="400" height="120" src="https://github.com/user-attachments/assets/c3ceb2d8-daba-4864-9613-15aebf301423" /></a>
