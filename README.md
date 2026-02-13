@@ -144,7 +144,10 @@ docker compose restart kibana
 <img width="600" height="425" src="https://github.com/user-attachments/assets/dc140504-2dfd-4e6e-bf5f-7322a830a716" />
 
 ### Clique no botão "Add System"
-<img width="1192" height="689" src="https://github.com/user-attachments/assets/c87e3961-5b01-4f56-9a1c-ba9a750961d9" />
+<img width="600" height="345" src="https://github.com/user-attachments/assets/c87e3961-5b01-4f56-9a1c-ba9a750961d9" />
+
+### Clique no botão "Save and continue"
+<img width="600" height="443" src="https://github.com/user-attachments/assets/09787cc5-4fba-4e2f-ae67-b58ec30b7344" />
 
 
 ***
