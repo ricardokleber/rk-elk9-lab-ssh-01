@@ -159,6 +159,8 @@ docker compose restart kibana
 ### 21. Clique no botão 'Add agent':
 <img width="580" height="270" src="https://github.com/user-attachments/assets/26f7ecd5-e0ca-42f3-83b7-0e74a8e3242d" />
 
+### 22. IMPORTANTE!!! Para esta prática não utilizaremos o Fleet para se comunicar com os Elastic-Agents. Clique em 'Run standalone' para configurar individualmente cada agente.
+<img width="585" height="400" src="https://github.com/user-attachments/assets/f5d61c1d-0ddf-4123-9b8e-1982dfb4e527" />
 
 
 
