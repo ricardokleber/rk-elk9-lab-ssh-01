@@ -181,6 +181,14 @@ cat > /opt/Elastic/Agent/elastic-agent.yml
 ### 27. Copie agora a chave API para a área de transferência para informar no arquivo de configuração do Elastic Agent do host:
 <img width="590" height="450" src="https://github.com/user-attachments/assets/717c3661-92f4-4312-a175-a9e4534f5e80" />
 
+### 28. No Docker server01 edite o arquivo elastic-agent.yml criado no passo anterior:
+```
+nano /opt/Elastic/Agent/elastic-agent.yml
+```
+### Procure a linha que indica 'api_key:' e cole a chave API da área de transferência:
+<img width="733" height="257" src="https://github.com/user-attachments/assets/4551b018-d15a-448c-896a-fa58c2ec0759" />
+
+
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
