@@ -222,6 +222,8 @@ ssh atacante02@10.10.10.201
 ```
 ssh atacante03@10.10.10.201
 ```
+### 35. Confira agora o resultado no seu Dashboard pré-configurado de monitoramento de acessos SSH (Clique no botão 'Refresh' no Dashboard do Kibana):
+<img width="590" height="390" src="https://github.com/user-attachments/assets/976ded6d-f641-4929-b353-080e382d50f8" />
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
