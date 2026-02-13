@@ -178,6 +178,8 @@ cat > /opt/Elastic/Agent/elastic-agent.yml
 ### 26. Retorne ao Kibana para gerar  a chave API para o agente se comunicar com o ELK. Clique no botão 'Create API key':
 <img width="590" height="450" src="https://github.com/user-attachments/assets/ba415601-80fa-4bce-a767-1b44ea73c60b" />
 
+### 27. Copie agora a chave API para a área de transferência para informar no arquivo de configuração do Elastic Agent do host:
+<img width="590" height="450" src="https://github.com/user-attachments/assets/717c3661-92f4-4312-a175-a9e4534f5e80" />
 
 
 ***
