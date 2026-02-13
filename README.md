@@ -165,12 +165,19 @@ docker compose restart kibana
 ### 23. O arquivo de configuração (elastic-agent.yml) do agente está pronto. Basta clicar em 'Copy to clipboard' e copiar para área de transferência.
 <img width="590" height="450" src="https://github.com/user-attachments/assets/eec3c3b9-798e-43f2-a600-bc7b27327a3c" />
 
-
-### 25. Iniciando a configuração do Servidor SSH (server01) acesse o Docker server01:
-
+### 24. Iniciando a configuração Elastic-Agent do Servidor SSH (server01) acesse o Docker server01:
 ```
 docker exec -it server01 bash
 ```
+### 25. Copie agora o conteúdo do arquivo (quase) pronto do elastic-agent que está na área de transferência para o Docker server01:
+```
+cat > /opt/Elastic/Agent/elastic-agent.yml
+```
+### Finalize a inclusão dos dados no arquivo via cat com 'CTRL+D'.
+
+### 26. Retorne ao Kibana para gerar  a chave API para o agente se comunicar com o ELK. Clique no botão 'Create API key':
+<img width="590" height="450" src="https://github.com/user-attachments/assets/ba415601-80fa-4bce-a767-1b44ea73c60b" />
+
 
 
 ***
