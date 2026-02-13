@@ -119,14 +119,14 @@ docker exec -it kibana /usr/share/kibana/bin/kibana-encryption-keys generate
 ```
 docker exec -it kibana bash
 ```
-### Concatene o conteúdo da área de transferência no arquivo de configuração do Kibana:
+### 14. Concatene o conteúdo da área de transferência no arquivo de configuração do Kibana:
 
 ```
 cat >> /usr/share/kibana/config/kibana.yml
 ```
-### saia do 'cat' teclando CTRL+D.
+### 15. Saia do 'cat' teclando CTRL+D.
 
-### 14. Reinicie o Docker Kibana para ativar as configurações do 'Fleet':
+### 16. Reinicie o Docker Kibana para ativar as configurações do 'Fleet':
 
 ```
 docker compose restart kibana
@@ -136,18 +136,20 @@ docker compose restart kibana
 
 <img width="435" height="295" src="https://github.com/user-attachments/assets/1e82e819-cb7f-4014-a329-ab966897b5b4" />
 
-### 15. Instale agora a 'Integration' System (conjunto de funcionalidades para reconhecer, tratar e exibir informações de sistema, inclusive os LOGS que queremos do SSH):
+### 17. Instale agora a 'Integration' System (conjunto de funcionalidades para reconhecer, tratar e exibir informações de sistema, inclusive os LOGS que queremos do SSH):
 
 ### No Menu da Direita: Management > Integrations
 
 ### No campo de Busca procure por: System
 <img width="600" height="425" src="https://github.com/user-attachments/assets/dc140504-2dfd-4e6e-bf5f-7322a830a716" />
 
-### Clique no botão "Add System"
+### 18.  Clique no botão "Add System"
 <img width="600" height="345" src="https://github.com/user-attachments/assets/c87e3961-5b01-4f56-9a1c-ba9a750961d9" />
 
-### Clique no botão "Save and continue"
+### 19. Clique no botão "Save and continue"
 <img width="600" height="443" src="https://github.com/user-attachments/assets/09787cc5-4fba-4e2f-ae67-b58ec30b7344" />
+
+### Este procedimento criou as configurações do Integration 'system-1' e as configurações/políticas para os Elastic-Agents 'Agent policy 1'
 
 
 ***
