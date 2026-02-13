@@ -162,9 +162,11 @@ docker compose restart kibana
 ### 22. IMPORTANTE!!! Para esta prática não utilizaremos o Fleet para se comunicar com os Elastic-Agents. Clique em 'Run standalone' para configurar individualmente cada agente.
 <img width="585" height="400" src="https://github.com/user-attachments/assets/f5d61c1d-0ddf-4123-9b8e-1982dfb4e527" />
 
+### 23. O arquivo de configuração (elastic-agent.yml) do agente está pronto. Basta clicar em 'Copy to clipboard' e copiar para área de transferência.
+<img width="590" height="450" src="https://github.com/user-attachments/assets/eec3c3b9-798e-43f2-a600-bc7b27327a3c" />
 
 
-### 20. Iniciando a configuração do Servidor SSH (server01) acesse o Docker server01:
+### 25. Iniciando a configuração do Servidor SSH (server01) acesse o Docker server01:
 
 ```
 docker exec -it server01 bash
