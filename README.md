@@ -194,6 +194,8 @@ service elastic-agent start
 ```
 ### Seu host já está enviando os logs e métricas coletados pelo Elastic Agent para seu servidor ELK!!!
 
+### 30. Agora é só aguardar os logs chegarem no Kibana. Clique no menu da esquerda em Analytics > Discover:
+<img width="590" height="395" src="https://github.com/user-attachments/assets/257e2279-43b7-4190-a2c2-a37d7b210595" />
 
 
 
