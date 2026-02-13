@@ -151,6 +151,9 @@ docker compose restart kibana
 
 ### Este procedimento criou as configurações do Integration 'system-1' e as configurações/políticas para os Elastic-Agents 'Agent policy 1'
 
+### O ELK agora está pronto para configurar seu primeiro host a ser monitorando com o 'Elastic Agent':
+<img width="470" height="307" alt="Captura de tela_2026-02-13_08-46-53" src="https://github.com/user-attachments/assets/256c28f9-5b27-4e9b-85de-ff0f540fa04a" />
+
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
