@@ -200,10 +200,11 @@ service elastic-agent start
 ### 31. Após alguns segundos clique em 'Refresh' no Discover e veja os LOGS chegando:
 <img width="595" height="395" src="https://github.com/user-attachments/assets/f394057d-5ffa-4cbd-a91f-8d627f30ae90" />
 
-### 32. Com o uso de Integrations, vários Dashboards já estão disponíveis pré-configurados. Veja alguns deles relacionados a métricas:
+### 32. Com o uso de Integrations, vários Dashboards já estão disponíveis pré-configurados. Veja o painel com as métricas do host monitorado:
 
 ### Host Overview: Analytics > Dashboards > [Metrics System] Host overview
 <img width="590" height="390" src="https://github.com/user-attachments/assets/b84990cf-06c1-4d71-94e1-4936b3bedea5" />
+
 
 
 
