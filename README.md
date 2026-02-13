@@ -128,11 +128,14 @@ cat >> /usr/share/kibana/config/kibana.yml
 
 ### 14. Reinicie o Docker Kibana para ativar as configurações do 'Fleet':
 
-### Agora o componente 'Fleet' está habilitado no Kibana e podemos usar a comunicação com os hosts via Elastic-Agents.
-
 ```
 docker compose restart kibana
 ```
+
+### Agora o componente 'Fleet' está habilitado no Kibana e podemos usar a comunicação com os hosts via Elastic-Agents.
+
+<img width="435" height="295" src="https://github.com/user-attachments/assets/1e82e819-cb7f-4014-a329-ab966897b5b4" />
+
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
