@@ -188,6 +188,13 @@ nano /opt/Elastic/Agent/elastic-agent.yml
 ### Procure a linha que indica 'api_key:' e cole a chave API da área de transferência:
 <img width="733" height="257" src="https://github.com/user-attachments/assets/4551b018-d15a-448c-896a-fa58c2ec0759" />
 
+### 29. Salve o arquivo e ainda no Docker server01 inicie o serviço 'elastic-agent' carregando e executando as configurações de acesso do host ao ELK:
+```
+service elastic-agent start
+```
+### Seu host já está enviando os logs e métricas coletados pelo Elastic Agent para seu servidor ELK!!!
+
+
 
 
 ***
