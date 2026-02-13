@@ -197,6 +197,8 @@ service elastic-agent start
 ### 30. Agora é só aguardar os logs chegarem no Kibana. Clique no menu da esquerda em Analytics > Discover:
 <img width="590" height="395" src="https://github.com/user-attachments/assets/257e2279-43b7-4190-a2c2-a37d7b210595" />
 
+### 31. Após alguns segundos clique em 'Refresh' no Discover e veja os LOGS chegando:
+<img width="595" height="395" src="https://github.com/user-attachments/assets/f394057d-5ffa-4cbd-a91f-8d627f30ae90" />
 
 
 ***
