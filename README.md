@@ -212,6 +212,16 @@ service elastic-agent start
 
 ### Naturamente, não tem nenhum gráfico ou registro (No result found) porque não houve nenhum acesso SSH ao host!!!
 
+### 34. Em seu host real (fora do Docker server01) use um cliente SSH e tente fazer acessos ao server01 com nomes e senhas aleatórios:
+```
+ssh atacante01@10.10.10.201
+```
+```
+ssh atacante02@10.10.10.201
+```
+```
+ssh atacante03@10.10.10.201
+```
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
