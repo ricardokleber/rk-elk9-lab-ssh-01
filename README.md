@@ -205,7 +205,12 @@ service elastic-agent start
 ### Host Overview: Analytics > Dashboards > [Metrics System] Host overview
 <img width="590" height="390" src="https://github.com/user-attachments/assets/b84990cf-06c1-4d71-94e1-4936b3bedea5" />
 
+### 33. Finalmente, então, vamos ver os registros de acessos SSH:
 
+### Analytics > Dashboards > [Logs System] SSH login attempts
+<img width="590" height="390" src="https://github.com/user-attachments/assets/10951875-fff4-4a37-b52c-cb1f6f890c12" />
+
+### Naturamente, não tem nenhum gráfico ou registro (No result found) porque não houve nenhum acesso SSH ao host!!!
 
 
 ***
