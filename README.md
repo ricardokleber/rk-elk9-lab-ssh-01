@@ -136,6 +136,16 @@ docker compose restart kibana
 
 <img width="435" height="295" src="https://github.com/user-attachments/assets/1e82e819-cb7f-4014-a329-ab966897b5b4" />
 
+### 15. Instale agora a 'Integration' System (conjunto de funcionalidades para reconhecer, tratar e exibir informações de sistema, inclusive os LOGS que queremos do SSH):
+
+### No Menu da Direita: Management > Integrations
+
+### No campo de Busca procure por: System
+<img width="600" height="425" src="https://github.com/user-attachments/assets/dc140504-2dfd-4e6e-bf5f-7322a830a716" />
+
+### Clique no botão "Add System"
+<img width="1192" height="689" src="https://github.com/user-attachments/assets/c87e3961-5b01-4f56-9a1c-ba9a750961d9" />
+
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
