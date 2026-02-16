@@ -227,4 +227,4 @@ ssh atacante03@10.10.10.201
 
 ***
 ## Veja o Vídeo com o Tutorial na Prática no Youtube:
-<a href="[https://www.youtube.com/@rkifrn](https://www.youtube.com/watch?v=l9gljA5Md4s)" target="_blank"><img width="400" height="120" src="https://github.com/user-attachments/assets/c3ceb2d8-daba-4864-9613-15aebf301423" /></a>
+<a href="https://www.youtube.com/watch?v=l9gljA5Md4s" target="_blank"><img width="400" height="120" src="https://github.com/user-attachments/assets/c3ceb2d8-daba-4864-9613-15aebf301423" /></a>
